@@ -3,8 +3,10 @@
 
 ## Write a short comment describing this function
 
+
+#This is a simple function to set the values of a matrix
 makeCacheMatrix <- function(x = matrix()) {
-  nvs <- NULL
+  invs <- NULL
   set <- function(y) {
   x <<- y
   invs <<- NULL
@@ -21,6 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
+#This is a function to Solve for the inverse of a matrix and store it in cache
 cacheSolve <- function(x, ...) {
          i <- x$getinvs()
   if(!is.null(i)) {
