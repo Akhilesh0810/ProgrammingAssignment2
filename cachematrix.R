@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-#This is a function to Solve for the inverse of a matrix and store it in cache
+## This is a function to Solve for the inverse of a matrix and store it in cache
 cacheSolve <- function(x, ...) {
          i <- x$getinvs()
   if(!is.null(i)) {
